@@ -129,7 +129,7 @@ patch:
     - xform/ //  # 上屏码中的空格取消
     - xlit|;| |  # 上屏码中的;替换为空格
     # - "xlit|abcdefghijklmnopqrstuvwxyz|"
-  "translator/comment_format":# 提示碼把5改为v
+  "translator/comment_format":  # 提示碼把5改为v
     - erase/^xx$/
     - xform/\<r5/el/
     - xform/\<([jqx])u/$1v/
