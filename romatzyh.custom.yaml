@@ -98,7 +98,8 @@ patch:
     - xform/5\>/v/
     - abbrev/^([a-z]+)$/$1/
     - abbrev/^(ts|tz|sh|ch)\w+$/$1/
-    
+    # 简拼规则
+    - abbrev/j/zh/
     - abbrev/ch/q/
     - abbrev/sh/x/
     - abbrev/tz/z/
