@@ -156,7 +156,7 @@ patch:
  
  # punctuator:
   punctuator:
-    import_preset: default
+    import_preset: symbols
  
  # key_binder:
   key_binder:
@@ -182,3 +182,14 @@ patch:
       - {accept: "Control+Shift+percent", toggle: ascii_punct, when: always}
       
       - {accept: "Control+Shift+F", toggle: simplification, when: always}
+ 
+ # recognizer:
+  recognizer:
+    import_preset: default
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+
+      punct: '^/([0-9]0?|[A-Za-z]+)$'
+      reverse_lookup: "`[a-z]*'?$"
