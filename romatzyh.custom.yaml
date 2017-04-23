@@ -25,8 +25,9 @@ patch:
     - punctuator
     - selector
     - navigator
-    - express_editor  # 普通输入
-    # - fluency_editor  # 语句流输入
+    - express_editor  # 編輯器
+    # - fluency_editor  # 語句流輸入
+    # - fluid_editor  # 句式編輯器
  
  # speller:
   # "speller/alphabet": 'zyxwvutsrqponmlkjihgfedcba'
@@ -96,8 +97,10 @@ patch:
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
     - xform/5\>/v/
-    - abbrev/^([a-z]+)$/$1/
-    - abbrev/^(ts|tz|sh|ch)\w+$/$1/
+    # - abbrev/^([a-z]+)$/$1/
+    - abbrev/^([a-z]).+$/$1/  # 修復簡拼功能
+    # - abbrev/^(ts|tz|sh|ch)\w+$/$1/
+    - abbrev/^(ts|tz|sh|ch).+$/$1/  # 修復簡拼功能
     # 简拼规则
     - abbrev/j/zh/
     - abbrev/ch/q/
