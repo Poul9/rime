@@ -89,11 +89,11 @@ patch:
     - xlit|;| |  # 上屏码中的;替换为空格
     #- xlit|'| |  # 上屏码中的'替换为空格
   
-  "translator/comment_format":  # 提示碼把12345改为ˉˊˇˋ˙
+  "translator/comment_format":  # 提示碼把声调12345改为ˉˊˇˋ˙
     - 'xlit|12345|ˉˊˇˋ˙|'
  
  # reverse_lookup:
-  "reverse_lookup/comment_format":  # 提示碼把12345改为ˉˊˇˋ˙
+  "reverse_lookup/comment_format":  # 提示碼把地球拼音声调12345改为ˉˊˇˋ˙
     - 'xlit|12345|ˉˊˇˋ˙|'
  
  # punctuator:
