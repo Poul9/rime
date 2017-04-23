@@ -128,7 +128,6 @@ patch:
   
  
  # translator:
-  "translator/spelling_hints": 7
   "translator/preedit_format":  # 上屛碼直接输入国罗字
     - xform/ //  # 上屏码中的空格取消
     - xlit|;| |  # 上屏码中的;替换为空格
@@ -195,6 +194,8 @@ patch:
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
     - xform/5\>/v/
+    - xform/ //  # 提示碼中的空格取消
+  
  
  # reverse_lookup:
   # "reverse_lookup/preedit_format":  # 反查上屛碼不改
@@ -261,6 +262,7 @@ patch:
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
     - xform/5\>/v/
+    - xform/ //  # 提示碼中的空格取消
   
  
  # key_binder:
