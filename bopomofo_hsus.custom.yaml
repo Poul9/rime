@@ -25,19 +25,19 @@ patch:
     - punctuator
     - selector
     - navigator
-    - express_editor  # 普通输入
-    # - fluency_editor  # 语句流输入
+    - express_editor  # 編輯器
+    # - fluency_editor  # 語句流輸入
+    # - fluid_editor  # 句式編輯器
  
  # speller:
   # "speller/alphabet": 'zyxwvutsrqponmlkjihgfedcba '
   # "speller/initials": 'zyxwvutsrqponmlkjihgfedcba'
-  "speller/finals": 
+  "speller/finals":  # 去掉q仅作末码的设置，和分号置为空格冲突
   "speller/delimiter": " ;'"
   # "speller/use_space": true
   # "speller/algebra":  # 拼寫處理器不改
  
  # translator:
-  "translator/spelling_hints": 4
   "translator/preedit_format":  # 上屏码中改变;和'
     - xform/b/ㄅ/
     - xform/p/ㄆ/
@@ -89,36 +89,9 @@ patch:
     - xlit|;| |  # 上屏码中的;替换为空格
     #- xlit|'| |  # 上屏码中的'替换为空格
   
-  "translator/comment_format":  # 提示码用和反查提示码一样
-    - xform/^r5$/er5/
-    - xform/^([jqx])y?u/$1v/
-    - xform/^y/i/
-    - xform/^w/u/
-    - xform/iu/iou/
-    - xform/ui/uei/
-    - xform/ong/ung/
-    - xform/([iu])n/$1en/
-    - xform/zh/Z/
-    - xform/ch/C/
-    - xform/sh/S/
-    - xform/ai/A/
-    - xform/ei/I/
-    - xform/ao/O/
-    - xform/ou/U/
-    - xform/ang/K/
-    - xform/eng/G/
-    - xform/an/M/
-    - xform/en/N/
-    - xform/er/R/
-    - xform/eh/E/
-    - xform/([iv])e/$1E/
-    - xform/1/ˉ/
-    - 'xlit|bpmfdtnlgkhjqxZCSrzcsiuvaoeEAIOUMNKGR2345|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˊˇˋ˙|'
-  
  
  # reverse_lookup:
-  # "reverse_lookup/preedit_format":  # 反查上屛碼不改
-  # "reverse_lookup/comment_format":  # 反查提示碼不改
+  "reverse_lookup/comment_format":  # 反查提示碼有误，不再使用，采用默认地球拼音标调
  
  # punctuator:
   punctuator:
