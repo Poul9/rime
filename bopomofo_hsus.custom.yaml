@@ -23,8 +23,8 @@ patch:
     - punctuator
     - selector
     - navigator
-    - express_editor  # 編輯器
-    # - fluency_editor  # 語句流輸入
+    # - express_editor  # 編輯器
+    - fluency_editor  # 語句流輸入
     # - fluid_editor  # 句式編輯器
  
  # speller:
@@ -36,6 +36,7 @@ patch:
   # "speller/algebra":  # 拼寫處理器不改
  
  # translator:
+  "translator/dictionary": terra_pinyin.extended
   "translator/preedit_format":  # 上屏码中改变;和'
     - xform/b/ㄅ/
     - xform/p/ㄆ/
@@ -162,11 +163,11 @@ patch:
   key_binder:
     import_preset: default
     bindings:
-      - { accept: Return, send: "Shift+Return", when: composing }
-      - { accept: "Shift+Return", send: Return, when: composing }
+      # - { accept: Return, send: "Shift+Return", when: composing }
+      # - { accept: "Shift+Return", send: Return, when: composing }
       
-      - { accept: minus, send: minus, when: has_menu }
-      - { accept: minus, send: Page_Up, when: paging }
+      # - { accept: minus, send: minus, when: has_menu }
+      # - { accept: minus, send: Page_Up, when: paging }
       # - { accept: minus, send: Page_Up, when: has_menu }
       # - { accept: equal, send: Page_Down, when: has_menu }
       
