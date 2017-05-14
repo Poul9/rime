@@ -135,6 +135,7 @@ patch:
   "translator/comment_format":  # 提示碼把国罗改为带调拼音
     - xform ([aeiou])(ng?|r)([1234]) $1$3$2
     - xform ([aeo])([iuo])([1234]) $1$3$2
+    - xform ([v])([e|an|n])([1234]) $1$3$2
     - xform a1 ā
     - xform a2 á
     - xform a3 ǎ
