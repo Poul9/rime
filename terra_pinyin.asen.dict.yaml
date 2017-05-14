@@ -5,12 +5,12 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.05.05"
+version: "2017.05.14"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 # 作者：
-阿森納裡	a1 sen1 na4 li3	100
+# 阿森納裡	a1 sen1 na4 li3	100
 
 # 历史人物
 斛律
@@ -110,11 +110,17 @@ use_preset_vocabulary: true
 效率	xiao4 lv5
 意識	yi4 shi5
 
+動物	dong4 wu5
+動物園	dong4 wu5 yuan2
+
 噯	ai5
 誒	eh4
 誒	eh5
 欸	ei4
 欸	ei5
+
+噢	o5
+面	mian5
 
 # 個人發音
 哎呦喂	ei1 you1 wei1
@@ -206,3 +212,49 @@ use_preset_vocabulary: true
 虢國	guo2 guo2
 
 息	xi2
+
+妖魔	yao1 mo2
+妖麽	yao1 mo2
+妖麼	yao1 mo2
+幺魔	yao1 mo2
+幺麽	yao1 mo2
+幺麼	yao1 mo2
+呀麼	ya5 mo5
+杨幺	yang2 yao1
+嬤嬤	mo4 mo5
+容嬤嬤	rong2 mo4 mo5
+幺蛾子	yao1 e2 zi5
+
+# 遺漏
+籖	qian1
+媫	jie4
+且	ju1
+尋	xin2
+祲	jin4
+苴	ju3
+砌	qie4
+箐	jing1
+箐	qian4
+湫	qiu1
+洗	xian3
+癬	xian3
+緝	qi4
+溱	qin2
+溱潼	qin2 tong2
+溱潼	cin2 tong2
+凊	qing4
+棲	xi1
+勷	xiang1
+翛	xiao1
+箾	xiao1
+箾	qiao4
+契	qie4
+契	xie4
+餳	tang2
+砠	ju1
+鵕	jun4
+
+逡巡	qun1 xun2
+逡廵	qun1 xun2
+逡巡	cvn1 svn2
+逡廵	cvn1 svn2
