@@ -3,7 +3,7 @@
 #
 # 尖音字列表
 # version: "2017.05.15"
-# 共599個漢字，算上多音字共658個
+# 共600個漢字，算上多音字共660個
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
@@ -239,24 +239,25 @@ use_preset_vocabulary: true
 像	siang4
 橡	siang4
 蟓	siang4
-蛸	siao1
-逍	siao1
+蕭	siao1
+簫	siao1
+瀟	siao1
+肖	siao1
+肖	siao4
 消	siao1
 宵	siao1
+削	siao1
+削	sve1
+銷	siao1
+囂	siao1
+蛸	siao1
+逍	siao1
 硝	siao1
 翛	siao1
 綃	siao1
 霄	siao1
 箾	siao1
 箾	ciao4
-肖	siao1
-肖	siao4
-削	siao1
-削	sve1
-銷	siao1
-蕭	siao1
-簫	siao1
-瀟	siao1
 魈	siao1
 蠨	siao1
 謏	siao3
