@@ -3,7 +3,7 @@
 #
 # 尖音字列表
 # version: "2017.05.15"
-# 共599個漢字，算上多音字共657個
+# 共599個漢字，算上多音字共658個
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
@@ -495,6 +495,7 @@ use_preset_vocabulary: true
 餞	zian4
 濺	zian4
 將	ziang1
+將	ziang4
 漿	ziang1
 螿	ziang1
 鱂	ziang1
