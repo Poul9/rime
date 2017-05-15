@@ -2,7 +2,8 @@
 # encoding: utf-8
 #
 # 尖音字列表
-# 共599個漢字，算上多音字共656個
+# version: "2017.05.15"
+# 共599個漢字，算上多音字共657個
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
@@ -16,7 +17,7 @@
     # 未列出相關詞彙，調用八股文詞庫
 ---
 name: terra_pinyin.zianyin
-version: "2017.05.14"
+version: "2017.05.15"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -248,18 +249,19 @@ use_preset_vocabulary: true
 霄	siao1
 箾	siao1
 箾	ciao4
-銷	siao1
-蕭	siao1
-魈	siao1
-簫	siao1
-瀟	siao1
-蠨	siao1
+肖	siao1
+肖	siao4
 削	siao1
 削	sve1
+銷	siao1
+蕭	siao1
+簫	siao1
+瀟	siao1
+魈	siao1
+蠨	siao1
 謏	siao3
 小	siao3
 筱	siao3
-肖	siao4
 笑	siao4
 嘯	siao4
 歗	siao4
@@ -460,10 +462,10 @@ use_preset_vocabulary: true
 遜	svn4
 蕈	svn4
 噀	svn4
-揳	zia2
 揳	sie1
 揳	sie2
 揳	sie4
+揳	zia2
 尖	zian1
 戔	zian1
 揃	zian1
@@ -551,6 +553,7 @@ use_preset_vocabulary: true
 齎	zii1
 齏	zii1
 績	zii1
+績	zii4
 即	zii2
 疾	zii2
 戢	zii2

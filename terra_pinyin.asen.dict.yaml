@@ -5,12 +5,12 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.05.14"
+version: "2017.05.15"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 # 作者：
-# 阿森納裡	a1 sen1 na4 li3	100
+# 阿森納裡	a1 sen1 na4 li3
 
 # 历史人物
 斛律
@@ -83,7 +83,7 @@ use_preset_vocabulary: true
 趙食其	zhao4 yi4 ji1
 尉遲恭	yu4 chi2 gong1
 
-# 轻声
+# 輕聲
 妒忌	du4 ji5
 試試	shi4 shi4
 嗎	ma1
@@ -122,6 +122,11 @@ use_preset_vocabulary: true
 噢	o5
 面	mian5
 
+用用	yong4 yong5
+賤人	jian4 ren5
+賤人	zian4 ren5
+太監	tai4 jian5
+
 # 個人發音
 哎呦喂	ei1 you1 wei1
 
@@ -145,6 +150,8 @@ use_preset_vocabulary: true
 終	zhong2
 期終	qi2 zhong2
 終期	zhong2 qi2
+權力	quan2 li4
+權利	quan2 li5
 
 肖	xiao1
 
