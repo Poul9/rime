@@ -40,8 +40,8 @@ patch:
     - xform/([zcsrh])i([1-5])\>/$1Y$2/
     - xform/\<er/el/
     - xform/\<zh/j/
-    - xform/\<z([aeiouyY])/tz$1/
-    - xform/\<c([aeiouyY])/ts$1/
+    - xform/\<z([aeiouvyY])/tz$1/
+    - xform/\<c([aeiouvyY])/ts$1/
     - xform/\<q/ch/
     - xform/\<x/sh/
     - xform/iu([1-5])\>/iou$1/
