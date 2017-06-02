@@ -117,6 +117,11 @@ use_preset_vocabulary: true
 動物	dong4 wu5
 動物園	dong4 wu5 yuan2
 
+親家	qin4 jia5
+親家	cin4 jia5
+親戚	cin1 cii1
+親戚	cin1 cii5
+
 噯	ai5
 誒	eh4
 誒	eh5
@@ -134,14 +139,13 @@ use_preset_vocabulary: true
 進度	zin4 du5
 項目	xiang4 mu5
 
-# 個人發音
-哎呦喂	ei1 you1 wei1
+先生	sian1 sheng1
+先生	sian1 sheng5
 
-# 北京話
-那	nei4
-那	nei5
+過	guo5
+去	qu5
+切	qie5
 
-麻煩	ma2 fan2
 
 不	bu5
 是	shi5
@@ -150,6 +154,15 @@ use_preset_vocabulary: true
 滴	di5	3
 的	di5	2
 得	di5	1
+
+# 個人發音
+哎呦喂	ei1 you1 wei1
+
+# 北京話
+那	nei4
+那	nei5
+
+麻煩	ma2 fan2
 
 它	te1
 她	tai1
@@ -161,6 +174,9 @@ use_preset_vocabulary: true
 終期	zhong2 qi2
 權力	quan2 li4
 權利	quan2 li5
+
+# 方言
+力	li1
 
 肖	xiao1
 
@@ -270,6 +286,7 @@ use_preset_vocabulary: true
 砠	ju1
 鵕	jun4
 
+# 尖音
 逡巡	qun1 xun2
 逡廵	qun1 xun2
 逡巡	cvn1 svn2

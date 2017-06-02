@@ -2,8 +2,8 @@
 # encoding: utf-8
 #
 # 尖音字列表
-# version: "2017.05.15"
-# 共600個漢字，算上多音字共660個
+# version: "2017.06.01"
+# 共604個漢字，算上多音字共664個
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
@@ -17,7 +17,7 @@
     # 未列出相關詞彙，調用八股文詞庫
 ---
 name: terra_pinyin.zianyin
-version: "2017.05.15"
+version: "2017.06.01"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -396,6 +396,9 @@ use_preset_vocabulary: true
 嬃	sv1
 諝	sv1
 鬚	sv1
+頊	sv1
+徐	sv2
+栩	sv2
 俆	sv2
 糈	sv3
 醑	sv3
@@ -410,6 +413,7 @@ use_preset_vocabulary: true
 絮	sv4
 婿	sv4
 漵	sv4
+溆	sv4
 緒	sv4
 續	sv4
 蓿	sv5
