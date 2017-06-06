@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.05.15"
+version: "2017.06.06"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -177,12 +177,13 @@ use_preset_vocabulary: true
 
 # 方言
 力	li1
-
 肖	xiao1
 
 較	jiao3
 比較	bi3 jiao3
 較爲	jiao3 wei2
+
+血	xue3
 
 會	hui2
 一會	yi4 hui2
