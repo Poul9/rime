@@ -30,8 +30,8 @@ patch:
  # speller:
   # "speller/alphabet": 'zyxwvutsrqponmlkjihgfedcba '
   # "speller/initials": 'zyxwvutsrqponmlkjihgfedcba'
-  "speller/finals":  # 去掉q仅作末码的设置，和分号置为空格冲突
-  "speller/delimiter": " ;'"
+  # "speller/finals":  # 去掉q仅作末码的设置，和分号置为空格冲突
+  # "speller/delimiter": " ;'"
   # "speller/use_space": true
   "speller/algebra":  # 拼寫處理器加入尖音處理
     - erase/^xx$/
@@ -48,8 +48,8 @@ patch:
     - xform/^zhi?/Z/
     - xform/^chi?/C/
     - xform/^shi?/S/
-    - xform/([zcsr])i([1-5])\>/$1$2/
-    - xform/ii/i/
+    - xform/([zcsr])i([1-5])\>/$1$2/  # 尖音處理
+    - xform/ii/i/  # 尖音處理
     - xform/ai/A/
     - xform/ei/I/
     - xform/ao/O/
@@ -68,56 +68,55 @@ patch:
  
  # translator:
   "translator/dictionary": terra_pinyin.extended
-  "translator/preedit_format":  # 上屏码中改变;和'
-    - xform/b/ㄅ/
-    - xform/p/ㄆ/
-    - xform/m([yhgexuiawomnkl])/ㄇ$1/
-    - xform/(^|[ ;'])f/ㄈ/
-    - xform/(^|[ ;'])d/ㄉ/
-    - xform/t/ㄊ/
-    - xform/n([yhgexuiawomnkl])/ㄋ$1/
-    - xform/(^|[ ;'])l$/ㄦ/
-    - xform/(^|[ ;'])ld/ㄦˊ/
-    - xform/(^|[ ;'])lf/ㄦˇ/
-    - xform/(^|[ ;'])lj/ㄦˋ/
-    - xform/(^|[ ;'])lq/ㄥ˙/
-    - xform/(^|[ ;'])l/ㄌ/
-    - xform/h([yhgexuiawomnkl])/ㄏ$1/
-    - xform/k([yhgexuiawomnkl])/ㄎ$1/
-    - xform/g([yhgexuiawomnkl])/ㄍ$1/
-    - xform/z/ㄗ/
-    - xform/(^|[ ;'])a/ㄘ/
-    - xform/(^|[ ;'])s/ㄙ/
-    - xform/(^|[ ;'])j([eu])/ㄐ$2/
-    - xform/(^|[ ;'])v([eu])/ㄑ$2/
-    - xform/(^|[ ;'])c([eu])/ㄒ$2/
-    - xform/(^|[ ;'])j/ㄓ/
-    - xform/(^|[ ;'])v/ㄔ/
-    - xform/(^|[ ;'])c/ㄕ/
-    - xform/r/ㄖ/
-    - xform/y/ㄚ/
-    - xform/h/ㄛ/
-    - xform/g/ㄜ/
-    - xform/([eu])e/$1ㄝ/
-    - xform/e/ㄧ/
-    - xform/u/ㄩ/
-    - xform/x/ㄨ/
-    - xform/i/ㄞ/
-    - xform/a/ㄟ/
-    - xform/w/ㄠ/
-    - xform/o/ㄡ/
-    - xform/m/ㄢ/
-    - xform/n/ㄣ/
-    - xform/k/ㄤ/
-    - xform/l/ㄥ/
-    - xform/d/ˊ/
-    - xform/f/ˇ/
-    - xform/j/ˋ/
-    - xform/q/˙/
-    - xform/s/ˉ/
-    - xform/ //  # 上屏码中的空格取消
-    - xlit|;| |  # 上屏码中的;替换为空格
-    #- xlit|'| |  # 上屏码中的'替换为空格
+  # "translator/preedit_format":  # 上屏码中改变;和'
+    # - xform/b/ㄅ/
+    # - xform/p/ㄆ/
+    # - xform/m([yhgexuiawomnkl])/ㄇ$1/
+    # - xform/(^|[ ;'])f/ㄈ/
+    # - xform/(^|[ ;'])d/ㄉ/
+    # - xform/t/ㄊ/
+    # - xform/n([yhgexuiawomnkl])/ㄋ$1/
+    # - xform/(^|[ ;'])l$/ㄦ/
+    # - xform/(^|[ ;'])ld/ㄦˊ/
+    # - xform/(^|[ ;'])lf/ㄦˇ/
+    # - xform/(^|[ ;'])lj/ㄦˋ/
+    # - xform/(^|[ ;'])lq/ㄥ˙/
+    # - xform/(^|[ ;'])l/ㄌ/
+    # - xform/h([yhgexuiawomnkl])/ㄏ$1/
+    # - xform/k([yhgexuiawomnkl])/ㄎ$1/
+    # - xform/g([yhgexuiawomnkl])/ㄍ$1/
+    # - xform/z/ㄗ/
+    # - xform/(^|[ ;'])a/ㄘ/
+    # - xform/(^|[ ;'])s/ㄙ/
+    # - xform/(^|[ ;'])j([eu])/ㄐ$2/
+    # - xform/(^|[ ;'])v([eu])/ㄑ$2/
+    # - xform/(^|[ ;'])c([eu])/ㄒ$2/
+    # - xform/(^|[ ;'])j/ㄓ/
+    # - xform/(^|[ ;'])v/ㄔ/
+    # - xform/(^|[ ;'])c/ㄕ/
+    # - xform/r/ㄖ/
+    # - xform/y/ㄚ/
+    # - xform/h/ㄛ/
+    # - xform/g/ㄜ/
+    # - xform/([eu])e/$1ㄝ/
+    # - xform/e/ㄧ/
+    # - xform/u/ㄩ/
+    # - xform/x/ㄨ/
+    # - xform/i/ㄞ/
+    # - xform/a/ㄟ/
+    # - xform/w/ㄠ/
+    # - xform/o/ㄡ/
+    # - xform/m/ㄢ/
+    # - xform/n/ㄣ/
+    # - xform/k/ㄤ/
+    # - xform/l/ㄥ/
+    # - xform/d/ˊ/
+    # - xform/f/ˇ/
+    # - xform/j/ˋ/
+    # - xform/q/˙/
+    # - xform/s/ˉ/
+    # - xform/ //  # 上屏码中的空格取消
+    # - xlit|;| |  # 上屏码中的;替换为空格
   
   "translator/comment_format":  # 提示碼把声调12345改为ˉˊˇˋ˙
     - xform ([aeiou])(ng?|r)([1234]) $1$3$2
