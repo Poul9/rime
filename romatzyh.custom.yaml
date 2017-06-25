@@ -160,9 +160,13 @@ patch:
     - xform v2 ǘ
     - xform v3 ǚ
     - xform v4 ǜ
-    - xform/([nljqxy])v/$1ü/
+    - xform eh1 ê̄
+    - xform eh2 ế
+    - xform eh3 ê̌
+    - xform eh4 ề
+    - xform/([nljqxyzcs])v/$1ü/
     - xform/eh[0-5]?/ê/
-    - xform/([a-z]+)[0-5]/$1/
+    - xform/([a-z|ü]+)[0-5]/$1/
     - xform/ //  # 提示碼中的空格取消
   
  
