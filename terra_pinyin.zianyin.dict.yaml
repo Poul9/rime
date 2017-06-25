@@ -2,22 +2,22 @@
 # encoding: utf-8
 #
 # 尖音字列表
-# version: "2017.05.15"
-# 共600個漢字，算上多音字共660個
+# version: "2017.06.06"
+# 共604個漢字，算上多音字共665個；113個音節(區分聲調)/37個音節(不分聲調)
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
-    # 宛东先生(http://www.zhonghuayinyun.com/ziliao/9.html)；
-    # 宛北书生(http://blog.chinaiiss.com/wanbeiyanfei/blog/view/678232)
+    # 宛东先生 <http://www.zhonghuayinyun.com/ziliao/9.html>；
+    # 宛北书生 <http://blog.chinaiiss.com/wanbeiyanfei/blog/view/678232>
   # 處理原則：
     # 只列出尖音，對應團音與原地球拼音碼錶一致，未予改動；
     # 漢字以臺灣正體為準，以保留多繁對一簡的關係；
-    # 讀音對照漢典、萌典，取并集；
+    # 讀音對照漢典、萌典，取并集，如“息”sii1(大陸標準),sii2(臺灣標準)；
     # 保留簡繁共存漢字，如“千”、“仟”；
     # 未列出相關詞彙，調用八股文詞庫
 ---
 name: terra_pinyin.zianyin
-version: "2017.05.15"
+version: "2017.06.06"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -302,6 +302,7 @@ use_preset_vocabulary: true
 穸	sii1
 氥	sii1
 息	sii1
+息	sii2
 菥	sii1
 硒	sii1
 悉	sii1
@@ -396,6 +397,9 @@ use_preset_vocabulary: true
 嬃	sv1
 諝	sv1
 鬚	sv1
+頊	sv1
+徐	sv2
+栩	sv2
 俆	sv2
 糈	sv3
 醑	sv3
@@ -410,6 +414,7 @@ use_preset_vocabulary: true
 絮	sv4
 婿	sv4
 漵	sv4
+溆	sv4
 緒	sv4
 續	sv4
 蓿	sv5
