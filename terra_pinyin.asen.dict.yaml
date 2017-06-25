@@ -5,7 +5,11 @@
 
 ---
 name: terra_pinyin.asen
+<<<<<<< HEAD
 version: "2017.06.09"
+=======
+version: "2017.06.06"
+>>>>>>> origin/master
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -161,6 +165,7 @@ use_preset_vocabulary: true
 項目	xiang4 mu5
 問問	wen4 wen5
 
+<<<<<<< HEAD
 東西	dong1 xi1
 東西	dong1 xi5
 東西	dong1 sii1
@@ -193,6 +198,15 @@ use_preset_vocabulary: true
 來	lai5	0
 度	du5	0
 數	shu5	0
+=======
+先生	sian1 sheng1
+先生	sian1 sheng5
+
+過	guo5
+去	qu5
+切	qie5
+
+>>>>>>> origin/master
 
 呀	ya1	0
 呀	xia1	0
@@ -222,6 +236,7 @@ use_preset_vocabulary: true
 權力	quan2 li4
 權利	quan2 li5
 
+<<<<<<< HEAD
 在	zai2
 
 承載	cheng2 zai3	0
@@ -241,12 +256,17 @@ use_preset_vocabulary: true
 
 # 方言
 力	li1	0
+=======
+# 方言
+力	li1
+>>>>>>> origin/master
 肖	xiao1
 
 較	jiao3	0
 比較	bi3 jiao3
 較爲	jiao3 wei2
 
+<<<<<<< HEAD
 血	xue3	0
 血色浪漫	xue3 se4 lang4 man4
 
@@ -261,6 +281,12 @@ use_preset_vocabulary: true
 
 榻榻米	ta4 ta4 mi3
 榻榻米	ta1 ta1 mi3	0
+=======
+血	xue3
+
+會	hui2
+一會	yi4 hui2
+>>>>>>> origin/master
 
 式	chi4
 
@@ -410,6 +436,7 @@ use_preset_vocabulary: true
 餳	tang2
 砠	ju1
 鵕	jun4
+<<<<<<< HEAD
 喱	li3
 喱	li2
 咖喱	ga1 li3
@@ -428,6 +455,8 @@ use_preset_vocabulary: true
 
 # 勘誤
 套兒	tao4 r5
+=======
+>>>>>>> origin/master
 
 # 尖音
 逡巡	qun1 xun2
