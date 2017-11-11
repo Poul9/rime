@@ -17,4 +17,4 @@ https://github.com/rime-aca/rime-bopomofo-hsu
 https://github.com/Chingyat/rime-romatzyh
 
 国罗三拼下载：
-链接: https://pan.baidu.com/s/1csEkTS 密码: 8mdn
+链接: https://pan.baidu.com/s/1dEYpvaD 密码: dsv3
