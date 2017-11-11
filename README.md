@@ -8,8 +8,11 @@ customized rime schema files
 比如原版许氏注音的语句流方式，总要两次点击空间棒才能使汉字上屏，非常不习惯，还有原版国罗的省略轻声，作为一个对声调有强迫症的人来说是完全不可接受的，
 所以自己定制了custom.yaml文档来用。
 
+经过半年的使用，对许氏注音和国罗方案熟悉了许多，但也感于许氏的三/四键一音破坏节奏感(这倒不是许氏的锅)，ㄨ安排在x上的不便，和国罗编码过长对输入效率的影响，终于花力气制作了自己的三拼国罗方案，也可方便诸网友的使用，心中甚慰，同时在简书进行详细介绍。
+
 原版许氏方案，作者Patricivs
 https://github.com/rime-aca/rime-bopomofo-hsu
-
 原版国罗方案，作者Chingyat
 https://github.com/Chingyat/rime-romatzyh
+国罗三拼下载：
+链接: https://pan.baidu.com/s/1csEkTS 密码: 8mdn
