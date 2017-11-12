@@ -14,6 +14,7 @@ use_preset_vocabulary: true
 
 # 國羅“一七八不”發音規則
 不	bu1
+不	bu5	0
 # “羅馬字”特殊規定
 羅馬字	romatzyh
 
@@ -88,11 +89,13 @@ use_preset_vocabulary: true
 酈食其	li4 yi4 ji1
 審食其	shen3 yi4 ji1
 趙食其	zhao4 yi4 ji1
+樊於期	fan4 wu1 ji1
+桓齮	huan2 yi3
 尉遲恭	yu4 chi2 gong1
 囂魏牟
 
 虢國	guo2 guo2
-虢國	guo2 guo5	0
+# 虢國	guo2 guo5	0
 
 # 輕聲
 妒忌	du4 ji5
@@ -233,7 +236,6 @@ use_preset_vocabulary: true
 過	guo5	0
 去	qu5	0
 切	qie5	0
-不	bu5	0
 是	shi5	0
 噢	o5
 面	mian5	0
@@ -255,10 +257,6 @@ use_preset_vocabulary: true
 # 個人發音
 哎呦喂	ei1 you1 wei1
 
-# 北京話
-那	nei4
-那	nei5
-
 麻煩	ma2 fan2
 
 它	te1
@@ -276,14 +274,25 @@ use_preset_vocabulary: true
 
 承載	cheng2 zai3	0
 
+# 北京話
+那	nei4
+那	nei5	0
 吶	na4	50%
 吶	na5	50%
 吶	nai4	0
 吶	nai5	0
 吶	ne4	0
-
-嘚	de1
+吶	nei4	0
+吶	nei5	0
+# 嘞	lei5
+了	lei5	0
+嘞	lei4	0
+得嘞	de2 lei5
+您吶	nin2 nei5
+# 嘚	de1
 嘚	dei1	0
+嘚	dei3	0
+嘚	de2	0
 嘚	de4	0
 得	dai3	0
 嘚瑟	de4 se5
@@ -517,6 +526,10 @@ use_preset_vocabulary: true
 女婿	nv3 sv4
 女婿	nv3 sv5
 
+# 忒	te4	50%
+# 忒	tei1	50%
+忒	tui1	0
+
 # 沓	ta4
 沓	da2
 
@@ -528,3 +541,6 @@ use_preset_vocabulary: true
 逡廵	qun1 xun2
 逡巡	cvn1 svn2
 逡廵	cvn1 svn2
+京津冀	jing1 jin1 ji4
+京津冀	jing1 zin1 zii4
+
