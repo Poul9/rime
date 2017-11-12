@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.11.10"
+version: "2017.11.12"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -13,6 +13,8 @@ use_preset_vocabulary: true
 # 阿森納裡	a1 sen1 na4 li3
 
 # 國羅“一七八不”發音規則
+# 不	bu2	1%
+# 不	bu4	99%
 不	bu1
 不	bu5	0
 # “羅馬字”特殊規定
@@ -440,6 +442,15 @@ use_preset_vocabulary: true
 嬤嬤	mo4 mo5	0
 容嬤嬤	rong2 mo4 mo5	0
 幺蛾子	yao1 e2 zi5
+
+# 咳	hai1	5%
+# 咳	ke2	95%
+咳	hai4	0
+# 咳	hai5	0
+
+# 嗨	hai1
+# 嗨	hai4	0
+嗨	hai5	0
 
 # 遺漏
 籖	qian1
