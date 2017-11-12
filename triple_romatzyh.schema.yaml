@@ -518,6 +518,7 @@ translator:
     - xform/(a|e|i|y|n|l) i/$1 'i/
     - xform/(n|l|r) h/$1 'h/
     - xform/h w/h 'w/
+    - xform/q '/q /
     - xform/ //  # 取消空格
     - xlit|;| |  # 把;替換為空格
     
