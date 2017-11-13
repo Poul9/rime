@@ -9,7 +9,7 @@
 #
 ---
 name: terra_pinyin.extended
-version: "2017.11.10"
+version: "2017.11.13"
 sort: by_weight
 use_preset_vocabulary: true
 # max_phrase_length: 7
@@ -28,7 +28,6 @@ import_tables:
   # http://tieba.baidu.com/p/3282013505?pn=1
   # Luna Pinyin Extended Dictionary(Hanyu Dictionary) - 明月拼音擴充詞庫（漢語大詞典）
   - luna_pinyin.extended  # 13萬 (含未標調拼音)
-  # - luna_pinyin.cn_en  #80個
   - luna_pinyin.hanyu  # 22萬
   - luna_pinyin.poetry  # 2.6萬
   
@@ -38,14 +37,9 @@ import_tables:
   # QQ群 77608640(中州韻)下載最新版
   # 「Rime词扩计划」-BetterRime词库增强包－实用版の准正式版V2.01
   #  BetterRime词库增强包－实用版の准正式版 by @imy0823
-  # easy_en
   - luna_pinyin.anime  # 3萬
-  # - luna_pinyin.biaoqing  # 170個
   - luna_pinyin.chat  # 0.7萬
-  # - luna_pinyin.cn_en  #1620個 比「朙月拼音扩充词库」版更全
   - luna_pinyin.computer  # 1萬
-  # - luna_pinyin.english  # 4580個
-  # - luna_pinyin.extra_hanzi  # 28個日本漢字
   - terra_pinyin.kanji  # 31個日本漢字，對luna_pinyin.extra_hanzi進行標調
   - luna_pinyin.game  # 0.7萬
   - luna_pinyin.history  # 10萬
@@ -55,8 +49,6 @@ import_tables:
   - luna_pinyin.name  # 1萬
   - luna_pinyin.net  # 6萬
   - luna_pinyin.place  # 0.3萬
-  # - luna_pinyin.sgmain  # 78萬
-  # - luna_pinyin.sgplus  # 5萬，luna_pinyin.extended的簡版，含未標調拼音
   - luna_pinyin.sgplus2  # 19萬
   - luna_pinyin.shopping  # 5.5萬
   - luna_pinyin.user  # 1.6萬 可能是imy0823個人整體的詞庫
