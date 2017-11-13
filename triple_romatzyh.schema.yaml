@@ -255,9 +255,9 @@ translator:
     - xform/([dtgkhviurzcs])v/$1Ui/
     - xform/([bpmfdtnljqxzcs])b/$1In/
     - xform/([bpmdtnljqxzcs])m/$1Ian/
-    - "xform/(^|[ '])v/$1Zh/"
-    - "xform/(^|[ '])i/$1Ch/"
-    - "xform/(^|[ '])u/$1Sh/"
+    - "xform/(^|[ ;'])v/$1Zh/"
+    - "xform/(^|[ ;'])i/$1Ch/"
+    - "xform/(^|[ ;'])u/$1Sh/"
     
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     
