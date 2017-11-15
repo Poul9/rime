@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.11.14"
+version: "2017.11.15"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -285,6 +285,11 @@ use_preset_vocabulary: true
 貝斯	bei4 si5
 貝司	bei4 si5
 
+# 哇	wa1
+哇	wa5
+
+紀律	ji4 lv5
+錯誤	cuo4 wu5
 
 # 北京話
 那	nei4	0
@@ -309,6 +314,7 @@ use_preset_vocabulary: true
 得	dai3	0
 嘚瑟	de4 se5
 得瑟	de4 se5
+
 
 # 方言
 力	li1	0
@@ -559,6 +565,8 @@ use_preset_vocabulary: true
 凹	wa4	0
 # 這	zhe4
 這	zhei4	0
+# 這麼	zhe4 me5
+這麼	ze4 me5
 
 # 哪	na3	90%
 # 哪	na5	9%
@@ -592,7 +600,13 @@ use_preset_vocabulary: true
 # 日	ri4
 日	mi4	0
 
+# 溜	liu1
+溜	liu4
+# 溜溜	liu4 liu5
+遛遛	liu4 liu5
+
 # 勘誤
+# 套兒	tao4 er5
 套兒	tao4 r5
 
 # 尖音
