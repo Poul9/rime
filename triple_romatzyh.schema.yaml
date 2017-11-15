@@ -16,7 +16,7 @@ schema:
     # - double pinyin layout by 鶴
     # - Romatzyh schema by chingyat <tsingyat@outlook.com>
   description: |
-    26鍵三拼方案，嚴格三碼一音，以oeway輸入12345聲，聲調可省略；
+    26鍵三拼方案，嚴格三碼一音，以oeway輸入12345聲，聲調可省略，支持簡拼；
     雙拼方案以小鶴爲基礎，零聲母音節(包括yw)另行安排；
     回車輸出國羅，空格輸出漢字。
   dependencies:
@@ -508,7 +508,7 @@ translator:
     - xform/Y4\>/yh/
     - xform/Y5\>/yv/
     - xform/5\>/v/
-    - xform/\<(\w*)v/·$1/
+    - xform/\<(\w*)v/.$1/
     
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     
