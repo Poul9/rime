@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.11.15"
+version: "2017.11.19"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -236,6 +236,7 @@ use_preset_vocabulary: true
 舒克	shu1 ke5
 旮旯	ga1 la5
 
+容易	rong2 yi5
 
 過	guo5	0
 去	qu5	0
@@ -257,6 +258,10 @@ use_preset_vocabulary: true
 
 積	ji5	0
 積	zii5	0
+
+爺	ye5	0
+馬甲兒	ma3 jia2 r5
+
 
 # 個人發音
 哎呦喂	ei1 you1 wei1
