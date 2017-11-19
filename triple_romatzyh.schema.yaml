@@ -262,10 +262,10 @@ translator:
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     
    # 第2步：兒化音處理
-    - xform/(zh|ch|sh|r|z|c|s)i1 er5/EL/
-    - xform/(zh|ch|sh|r|z|c|s)i2 er5/ERL/
-    - xform/(zh|ch|sh|r|z|c|s)i3 er5/EEL/
-    - xform/(zh|ch|sh|r|z|c|s)i4 er5/ELL/
+    - xform/(zh|ch|sh|r|z|c|s)i1 er5/$1EL/
+    - xform/(zh|ch|sh|r|z|c|s)i2 er5/$1ERL/
+    - xform/(zh|ch|sh|r|z|c|s)i3 er5/$1EEL/
+    - xform/(zh|ch|sh|r|z|c|s)i4 er5/$1ELL/
     
     - xform/(van|yuan)1 er5/IUAL/
     - xform/(van|yuan)2 er5/YUAL/
@@ -508,7 +508,7 @@ translator:
     - xform/Y4\>/yh/
     - xform/Y5\>/yv/
     - xform/5\>/v/
-    - xform/\<(\w*)v/.$1/
+    - xform/\<(\w*)v/`$1/
     
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     
