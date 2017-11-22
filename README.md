@@ -17,4 +17,4 @@ https://github.com/rime-aca/rime-bopomofo-hsu
 https://github.com/Chingyat/rime-romatzyh
 
 国罗三拼下载：
-https://pan.baidu.com/s/1gfcVreb 密码: 5ugq
+https://pan.baidu.com/s/1mh7Dpl2 密码: npfy
