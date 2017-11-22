@@ -609,6 +609,31 @@ use_preset_vocabulary: true
 溜	liu4
 # 溜溜	liu4 liu5
 遛遛	liu4 liu5
+求求	qiu2 qiu5
+
+# 哼	heng1
+哼	heng5
+
+# 南無	na1 mo4
+# 南無	na2 mo2
+南無	na1 mo2
+# 南無佛	na2 mo2 fo2
+# 南無耶	na2 mo2 ye2
+# 南	nan2
+南	na1	0
+南	na2	0
+# 無	wu2
+無	mo2	0
+# 牟	mou2	95%
+# 牟	mu4	5%
+南牟	na1 mo2	0
+南牟	na2 mo2	0
+
+# 腌臢	a1 za5
+# 腌臢	ang1 za5
+# 腌臢	ang1 zang1
+腌臢	a1 za1
+
 
 # 勘誤
 # 套兒	tao4 er5
