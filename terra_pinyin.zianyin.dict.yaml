@@ -2,8 +2,8 @@
 # encoding: utf-8
 #
 # 尖音字列表
-# version: "2017.11.12"
-# 共607個漢字，算上多音字共667個；113個音節(區分聲調)/37個音節(不分聲調)
+# version: "2017.11.23"
+# 共619個漢字，算上多音字共681個；113個音節(區分聲調)/37個音節(不分聲調)
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
@@ -17,7 +17,7 @@
     # 未列出相關詞彙，調用八股文詞庫
 ---
 name: terra_pinyin.zianyin
-version: "2017.11.12"
+version: "2017.11.23"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -322,6 +322,7 @@ use_preset_vocabulary: true
 錫	sii1
 窸	sii1
 蟋	sii1
+螅	sii1
 瘜	sii2
 席	sii2
 習	sii2
@@ -355,6 +356,7 @@ use_preset_vocabulary: true
 新	sin1
 鋅	sin1
 薪	sin1
+忄	sin1
 囟	sin4
 信	sin4
 星	sing1
@@ -365,6 +367,9 @@ use_preset_vocabulary: true
 箵	sing3
 騂	sing1
 鯹	sing1
+曐	sing1
+皨	sing1
+〇	sing1
 餳	sing2
 省	sing3
 醒	sing3
@@ -421,6 +426,7 @@ use_preset_vocabulary: true
 宣	svan1
 揎	svan1
 瑄	svan1
+煊	svan1
 旋	svan2
 旋	svan4
 漩	svan2
@@ -431,10 +437,13 @@ use_preset_vocabulary: true
 癬	sian3
 渲	svan4
 鏇	svan4
+絢	svan4
+碹	svan4
 薛	sve1
 踅	sve2
 雪	sve3
 鱈	sve3
+彐	sve3
 蕁	svn2
 蕁	cian2
 廵	svn2
@@ -541,6 +550,7 @@ use_preset_vocabulary: true
 睫	zie2
 節	zie2
 截	zie2
+卩	zie2
 擳	zie2
 巀	zie2
 蠞	zie2
@@ -584,6 +594,7 @@ use_preset_vocabulary: true
 蹐	zii2
 籍	zii2
 鶺	zii2
+蕺	zii2
 脊	zii3
 擠	zii3
 濟	zii3
@@ -652,6 +663,7 @@ use_preset_vocabulary: true
 啾	ziu1
 鬏	ziu1
 酒	ziu3
+氿	ziu3
 就	ziu4
 僦	ziu4
 鷲	ziu4
