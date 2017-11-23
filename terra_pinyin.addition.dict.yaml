@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.11.19"
+version: "2017.11.23"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -634,6 +634,9 @@ use_preset_vocabulary: true
 # 腌臢	ang1 zang1
 腌臢	a1 za1
 
+# 曐	xing1
+# 皨	xing1
+〇	xing1	0
 
 # 勘誤
 # 套兒	tao4 er5
