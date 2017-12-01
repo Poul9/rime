@@ -648,6 +648,8 @@ use_preset_vocabulary: true
 # 勘誤
 # 套兒	tao4 er5
 套兒	tao4 r5
+# 儿	er2	99%
+# 儿	ren2	1%
 
 # 尖音
 逡巡	qun1 xun2
@@ -660,3 +662,6 @@ use_preset_vocabulary: true
 # 邏輯	luo2 ji5
 邏輯	luo2 zii2
 邏輯	luo2 zii5
+
+程序猿	cheng2 xu4 yuan1
+好好	hao3 hao1
