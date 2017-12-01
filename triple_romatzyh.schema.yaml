@@ -512,10 +512,14 @@ translator:
     
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
     
-   # 第4步：處理輕聲、隔音符等
+   # 第4步：簡寫、輕聲、隔音符等
     - xform/\<romatzyh/Romatzyh/
-    - xform/`([mdnlgj])e\>/$1/  # 若韻母=e，則省去韻母
+    - xform/`ba\>/b/
     - xform/`tzy\>/tz/
+    - xform/`([mdngj])e\>/$1/  # 若韻母=e，則省去韻母
+    - xform/`le\>/`l/
+    - xform/(^|;)`l\>/$1l/
+    - xform/'`/`/  # 隔音符、輕聲符連寫時省去隔音符
     - xform/ (a|u|e|o)/ '$1/
     - xform/(a|e|i|y|n|l) i/$1 'i/
     - xform/(n|l|r) h/$1 'h/
