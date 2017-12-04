@@ -260,8 +260,11 @@ translator:
     - "xform/(^|[ ;'])u/$1Sh/"
     
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
+    - xform/\<romatzyh/ROMATZYH/
     
    # 第2步：兒化音處理
+    - xform/\<([jqx])u/$1v/
+    
     - xform/(zh|ch|sh|r|z|c|s)i1 er5/$1EL/
     - xform/(zh|ch|sh|r|z|c|s)i2 er5/$1ERL/
     - xform/(zh|ch|sh|r|z|c|s)i3 er5/$1EEL/
@@ -276,12 +279,12 @@ translator:
     
     - xform/(vn|yun)1 er5/IUEL/
     - xform/(vn|yun)2 er5/YUEL/
-    - xform/(ue|ve|yue)1 er5/IUE'L/
-    - xform/(ue|ve|yue)2 er5/YUE'L/
+    - xform/(ve|yue)1 er5/IUE'L/
+    - xform/(ve|yue)2 er5/YUE'L/
     - xform/(yue|yun)3 er5/YEUEL/
-    - xform/(ue|ve|vn)3 er5/EUEL/
+    - xform/(ve|vn)3 er5/EUEL/
     - xform/(yue|yun)4 er5/YUELL/
-    - xform/(ue|ve|vn)4 er5/IUELL/
+    - xform/(ve|vn)4 er5/IUELL/
     
     - xform/(ua|uai|uan|wa|wai|wan)1 er5/UAL/
     - xform/(ua|uai|uan|wa|wai|wan)2 er5/WAL/
@@ -440,13 +443,11 @@ translator:
     - xform/(i|ii)4 er5/IELL/
     
    # 第3步：漢語拼音轉化爲国罗
-    - xform/\<romatzyh/ROMATZYH/
+    # 疊詞規則
+    - xform/\<(\w+[1-5] \w+[1-5]) \1/$1 VX/
+    - xform/\<(\w+[1-5]) (\w+[1-5]) \1/$1 $2 V/
+    - xform/\<(\w+[1-5]) \1/$1 X/
     
-    - xform/\<(\w*[12345] \w*[12345]) \1/$1 VX/
-    - xform/\<(\w*[12345]) (\w*[12345]) \1/$1 $2 V/
-    - xform/\<(\w*[12345]) \1/$1 X/
-    
-    - xform/\<([jqx])u/$1v/
     - xform/([zcsrh])i([1-5])?\>/$1Y$2/
     - xform/\<er/el/
     - xform/\<zh/j/
@@ -464,8 +465,8 @@ translator:
     - xform/\<wu([1-5])?\>/u$1/
     - xlit/yw/iu/
     - xform/ii/i/
-    - xform/\<([lnmr]\w+)2\>/$1/
-    - xform/\<([lmnr])(\w+1)\>/$1h$2/
+    - xform/\<([mnlr]\w+)2\>/$1/
+    - xform/\<([mnlr])(\w+1)\>/$1h$2/
     - xform/1\>//
     - xform/i(\w+)2\>/y$1/
     - xform/u(\w+)2\>/w$1/
@@ -508,21 +509,22 @@ translator:
     - xform/Y4\>/yh/
     - xform/Y5\>/yv/
     - xform/5\>/v/
-    - xform/\<(\w*)v/`$1/  # 輕聲
+    - xform/\<(\w+)v/`$1/  # 輕聲
     
     - xlit/QWERTYUIOPASDFGHJKLZXCVBNM/qwertyuiopasdfghjklzxcvbnm/
+    - xform/\<romatzyh/Romatzyh/
     
    # 第4步：簡寫、輕聲、隔音符等
-    - xform/\<romatzyh/Romatzyh/
     - xform/`ba\>/b/
     - xform/`tzy\>/tz/
+    - xform/`men\>/`mn/
     - xform/`([mdngj])e\>/$1/  # 若韻母=e，則省去韻母
     - xform/`le\>/`l/
     - xform/(^|;)`l\>/$1l/
     - xform/'`/`/  # 隔音符、輕聲符連寫時省去隔音符
-    - xform/ (a|u|e|o)/ '$1/
-    - xform/(a|e|i|y|n|l) i/$1 'i/
-    - xform/(n|l|r) h/$1 'h/
+    - xform/ ([aueo])/ '$1/
+    - xform/([aeiynl]) i/$1 'i/
+    - xform/([mnlr]) h/$1 'h/
     - xform/h w/h 'w/
     - xform/q '/q /
     - xform/ //  # 取消空格
