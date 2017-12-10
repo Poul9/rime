@@ -265,6 +265,10 @@ translator:
    # 第2步：兒化音處理
     - xform/\<([jqx])u/$1v/
     
+    # mnlr韻母轉換
+    - xform/\<([mnlr])(\w+1) er5/$1h$2 er5/
+    - xform/\<([mnlr][^h]\w*)2 er5/$1\x31 er5/
+    
     - xform/(zh|ch|sh|r|z|c|s)i1 er5/$1EL/
     - xform/(zh|ch|sh|r|z|c|s)i2 er5/$1ERL/
     - xform/(zh|ch|sh|r|z|c|s)i3 er5/$1EEL/
@@ -517,16 +521,17 @@ translator:
    # 第4步：簡寫、輕聲、隔音符等
     - xform/`ba\>/b/
     - xform/`tzy\>/tz/
-    - xform/`men\>/`mn/
-    - xform/`([mdngj])e\>/$1/  # 若韻母=e，則省去韻母
-    - xform/`le\>/`l/
-    - xform/(^|;)`l\>/$1l/
-    - xform/'`/`/  # 隔音符、輕聲符連寫時省去隔音符
-    - xform/ ([aueo])/ '$1/
+    - xform/`men\>/mn/
+    - xform/`([mdj])e\>/$1/  # 若韻母=e，則省去韻母
+    - xform/`([nlg])e\>/`$1/
+    - xform/(^|;)`([nlg])\>/$1$2/
+    - xform/([^q]) ([aeou])/$1 '$2/
     - xform/([aeiynl]) i/$1 'i/
-    - xform/([mnlr]) h/$1 'h/
-    - xform/h w/h 'w/
-    - xform/q '/q /
+    - xform/([gh]) w/$1 'w/
+    - xform/([nlr]) h/$1 'h/
+    - xform/([mbdjz]) '?/$1' /
+    - xform/([mbdjz])' x\>/$1 x/
+    - xform/' ?`/`/  # 隔音符、輕聲符連寫時省去隔音符
     - xform/ //  # 取消空格
     - xlit|;| |  # 把;替換為空格
     
