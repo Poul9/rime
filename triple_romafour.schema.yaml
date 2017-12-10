@@ -322,7 +322,7 @@ translator:
     - xform/\<(zh|ch|sh|r|z|s)Y3\>/$1YY/
     - xform/\<(zh|ch|sh|r|z|s)Y4\>/$1YH/
     # 聲母轉換
-    - xform/\<q([aeiouvyAEIOUVY])/c$1/
+    - xform/\<q/c/
     - xform/\<zh/j/
     - xform/\<ch/c/
     - xform/\<sh/x/
@@ -560,16 +560,18 @@ translator:
    # 第4步：簡寫、輕聲、隔音符等
     - xform/`ba\>/b/
     - xform/`zy\>/z/
-    - xform/`men\>/`mn/
-    - xform/`([mdngj])e\>/$1/  # 若韻母=e，則省去韻母
-    - xform/`le\>/`l/
-    - xform/(^|;)`l\>/$1l/
-    - xform/'`/`/  # 隔音符、輕聲符連寫時省去隔音符
-    - xform/ ([aueo])/ '$1/
-    - xform/([aeiynl]) i/$1 'i/
-    - xform/([mnlr]) h/$1 'h/
-    - xform/h w/h 'w/
-    - xform/q '/q /
+    - xform/`men\>/mn/
+    - xform/`([mdj])e\>/$1/  # 若韻母=e，則省去韻母
+    - xform/`([nlg])e\>/`$1/
+    - xform/(^|;)`([nlg])\>/$1$2/
+    - xform/([^q]) ([aeou])/$1 '$2/
+    - xform/([aeiouywnl]) i/$1 'i/
+    - xform/([nl]) y/$1 'y/
+    - xform/([nlrgh]) w/$1 'w/
+    - xform/([nlr]) h/$1 'h/
+    - xform/([mbdjzx]) '?/$1' /
+    - xform/([mbdjzx])' x\>/$1 x/
+    - xform/' ?`/`/  # 隔音符、輕聲符連寫時省去隔音符
     - xform/ //  # 取消空格
     - xlit|;| |  # 把;替換為空格
     
