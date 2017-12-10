@@ -19,4 +19,6 @@ https://github.com/Chingyat/rime-romatzyh
 国罗三拼&四字国罗三拼下载：
 https://pan.baidu.com/s/1bpJHDGb 密码: 83bd
 
-2017.12.04加入三拼·四字国罗方案，设计者@Ting黄挺先生。
+2017.12.04加入“三拼·四字国罗”方案，设计者@Ting黄挺先生。
+
+2017.12.10更新隔音符添加规则。
