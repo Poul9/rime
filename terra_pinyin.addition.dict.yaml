@@ -400,9 +400,6 @@ use_preset_vocabulary: true
 高麗	gao1 li4	0
 高句麗	gao1 gou1 li4	0
 
-蒙古	meng2 gu3
-蒙古	meng3 gu3	0
-
 喀	ka4
 喀	ke4	1
 喀	ka1	0
@@ -680,3 +677,52 @@ use_preset_vocabulary: true
 
 程序猿	cheng2 xu4 yuan1
 好好	hao3 hao1
+
+# 妮	ni1
+妮	ni2
+
+# 呀	ya5
+呀	ya1	0
+呀	xia1	0
+
+# 妳	ni3
+妳	nai3	0
+
+# 吾	wu2
+# 吾吾	yu2 yu2
+吾	yu2	0
+吾	yu4	0
+維吾爾	wei2 wu2 er3
+維吾爾	wei2 wu5 er3	0
+畏兀兒
+畏兀爾	wei4 wu5 er3	0
+偉兀
+
+# 蒙古	meng3 gu3
+蒙古	meng2 gu3
+蒙兀兒
+蒙兀爾	meng3 wu5 er3	0
+蒙兀爾	meng2 wu5 er3	0
+
+布萊雅特
+布里亞特
+
+土耳其	tu3 er3 qi2
+土爾其	tu3 er3 qi2	0
+土耳其	tu3 er5 qi2	0
+土爾其	tu3 er5 qi2	0
+
+# 朮	shu2	20%
+# 朮	shu4	0%
+# 朮	zhu2	80%
+# 术	shu2	20%
+# 术	shu4	0%
+# 术	zhu2	80%
+# 術	shu4
+術	sui4	0
+
+# 哱	bo1
+哱	po4	0
+哱	ba1	0
+哱拜	ba1 bai4	0
+巴拜	ba1 bai4	0
