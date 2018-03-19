@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.asen
-version: "2017.11.23"
+version: "2018.03.17"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -135,10 +135,18 @@ use_preset_vocabulary: true
 動物	dong4 wu5
 動物園	dong4 wu5 yuan2
 
-親家	qin4 jia5
+# 親家	qing4 jia5
+親家	cing4 jia5
+親家	qin4 jia5	0
 親家	cin4 jia5
-親戚	cin1 cii1
+# 親戚	qin1 qi1
+# 親戚	qin1 qi5
+親戚	cin1 cii1	0
 親戚	cin1 cii5
+親戚	qin1 cii1	0
+親戚	qin1 cii5	0
+親戚	cin1 qi1	0
+親戚	cin1 qi5	0
 
 
 
@@ -268,10 +276,14 @@ use_preset_vocabulary: true
 
 麻煩	ma2 fan2
 
-它	te1
+# 她	ta1
+她	te1
 她	tai1	0
-她	te2
+# 它	ta1
+它	te2
+# 妳	ni3
 妳	ni1	0
+妳	nai3	0
 
 終	zhong2	0
 期終	qi2 zhong2	0
@@ -436,6 +448,11 @@ use_preset_vocabulary: true
 薩爾滸	sa4 er3 hu3
 薩爾滸	sa4 r5 hu3
 薩拉丁	sa4 la1 ding1
+
+# 撒	sa1	50%
+# 撒	sa3	50%
+撒	sa4	0
+合撒兒
 
 雅	ya3
 雅	ya1	0
@@ -646,10 +663,11 @@ use_preset_vocabulary: true
 # 勘誤
 # 套兒	tao4 er5
 套兒	tao4 r5
-# 儿	er2	99%
-# 儿	ren2	1%
+# 儿	er2	1%
+# 儿	ren2	99%
 # 河裏孩兒岸上娘	he2 li3 ha2 er1 an4 shang4 niang2
 河裏孩兒岸上娘	he2 li3 hai2 er2 an4 shang4 niang2
+河裏孩兒岸上娘	he2 li3 hai2 er5 an4 shang4 niang2
 河裏孩子岸上娘	he2 li3 hai2 zi5 an4 shang4 niang2
 # 堡	bao3	95%
 # 堡	pu4	5%
@@ -663,6 +681,9 @@ use_preset_vocabulary: true
 河西堡鎮	he2 sii1 pu4 zhen4
 河西堡鎮	he2 sii1 bu3 zhen4
 
+# 兒	er2	95%
+# 兒	r5	5%
+兒	ni2	0
 
 # 尖音
 逡巡	qun1 xun2
@@ -685,9 +706,6 @@ use_preset_vocabulary: true
 # 呀	ya5
 呀	ya1	0
 呀	xia1	0
-
-# 妳	ni3
-妳	nai3	0
 
 # 吾	wu2
 # 吾吾	yu2 yu2
@@ -727,3 +745,86 @@ use_preset_vocabulary: true
 哱	ba1	0
 哱拜	ba1 bai4	0
 巴拜	ba1 bai4	0
+
+# 噱	jue2
+噱	xue1	1
+噱	xue2	2
+# 噱頭	xue1 tou2
+# 噱頭	xue2 tou2
+噱頭	xue4 tou2
+
+# 倔	jue2
+倔	jue4
+# 倔強	jue2 jiang4
+倔強	jue4 jiang4	0
+
+# 混	hun2	30%
+# 混	hun4	70%
+混	hun3	0
+混	gun3	0
+# 混混	gun3 gun3
+# 混混	hun4 hun4
+混混	hun4 hun5
+混	kun1	0
+# 混夷	kun1 yi2
+
+# 誼	yi4
+誼	yi2
+
+# 恩	en1
+恩	en5	0
+
+# 亞	ya3
+# 亞	ya4
+亞	ya1	0
+
+# 法	fa3
+法	fa1	0
+法	fa2	0
+法國	fa4 guo2	0
+
+# 親	qin1	95%
+# 親	qing4	5%
+# 父親	fu4 qin1
+父親	fu4 qin5	1
+父親	fu4 cin5	0
+# 母親	mu3 qin1
+母親	mu3 qin5	1
+母親	mu3 cin5	0
+鄉親	xiang1 qin5	1
+鄉親	xiang1 cin5	0
+# 姐姐	jie3 jie5
+姐姐	zie3 zie5
+姐姐	jie3 zie5	0
+姐姐	zie3 jie5	0
+
+# 便便	bian1 bian1
+便便	bian4 bian4	0
+便便	bian4 bian5
+
+# 氛	fen1
+氛	fen4	0
+
+# 撒	sa1	50%
+# 撒	sa3	50%
+撒	sa4	0
+
+# 質量	zhi2 liang4
+# 質量	zhi4 liang4
+質量	zhi3 liang4	0
+
+劊	gui4
+劊	kuai4
+
+檜	kuai4
+# 檜	gui4
+檜	hui4
+
+意見	yi4 jian5
+建議	jian4 yi5
+
+玫瑰	mei2 gui1
+玫瑰	mei2 gui4	0
+# 玫瑰	mei2 gui5
+月季	yue4 ji4
+月季	yue4 ji5

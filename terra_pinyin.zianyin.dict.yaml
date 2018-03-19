@@ -2,8 +2,8 @@
 # encoding: utf-8
 #
 # 尖音字列表
-# version: "2017.11.23"
-# 共619個漢字，算上多音字共681個；113個音節(區分聲調)/37個音節(不分聲調)
+# version: "2018.02.08"
+# 共619個漢字，算上多音字共682個；114個音節(區分聲調)/38個音節(不分聲調)
   # 作者：
     # 阿森納裡 <http://www.jianshu.com/u/efb2db775ef9>
   # 資料來源：
@@ -186,6 +186,8 @@ use_preset_vocabulary: true
 碏	cve4
 鵲	cve4
 逡	cvn1
+斜	sia2
+斜	sie2
 仙	sian1
 先	sian1
 氙	sian1
@@ -271,7 +273,6 @@ use_preset_vocabulary: true
 褉	sie1
 邪	sie2
 衺	sie2
-斜	sie2
 寫	sie3
 灺	sie4
 泄	sie4
