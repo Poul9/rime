@@ -4,8 +4,8 @@
 # 扩充词汇及错误、遗漏发音
 
 ---
-name: terra_pinyin.asen
-version: "2018.03.17"
+name: terra_pinyin.addition
+version: "2018.04.05"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -828,3 +828,21 @@ use_preset_vocabulary: true
 # 玫瑰	mei2 gui5
 月季	yue4 ji4
 月季	yue4 ji5
+
+# 孩紙	hai2 zhi3
+孩紙	hai2 zhi5
+
+# 逮	dai3	50%
+# 逮	dai4	50%
+逮	dei1	0
+
+# 落	la4	5%
+# 落	luo4	95%
+落	lao4	0
+
+# 拉	la1
+拉	la2	1
+拉	la4	0
+
+憋屈	bie1 qu5
+忙乎	mang2 hu5
