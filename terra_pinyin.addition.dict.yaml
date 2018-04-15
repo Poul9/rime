@@ -5,7 +5,7 @@
 
 ---
 name: terra_pinyin.addition
-version: "2018.04.05"
+version: "2018.04.15"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -691,7 +691,7 @@ use_preset_vocabulary: true
 逡巡	cvn1 svn2
 逡廵	cvn1 svn2
 京津冀	jing1 jin1 ji4
-京津冀	jing1 zin1 zii4
+京津冀	jing1 zin1 ji4
 # 邏輯	luo2 ji2
 # 邏輯	luo2 ji5
 邏輯	luo2 zii2
@@ -846,3 +846,13 @@ use_preset_vocabulary: true
 
 憋屈	bie1 qu5
 忙乎	mang2 hu5
+
+# 悄	qiao3
+悄	qiao1
+
+# 坷	ke3
+坷	ke1	1
+坷垃	ke1 la5
+金坷垃	jin1 ke1 la1
+
+康雍乾	kang1 yong1 qian2
